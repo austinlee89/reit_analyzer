@@ -11,7 +11,7 @@ from google import genai
 from google.genai import types
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyBsUHzZMoLYzY39jaII-nPhEXtyFqx6JAs"
+API_KEY = "insert-your-GeminiAPI-key-here"
 S3_BUCKET_NAME = "reit-data"
 DYNAMODB_TABLE_NAME = "reit-metrics"
 
@@ -393,3 +393,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
